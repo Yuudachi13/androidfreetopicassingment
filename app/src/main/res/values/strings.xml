@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Loppuhomma</string>
+    <string name="random_osrs_item">Random OSRS Item</string>
+    <string name="item_image_desc">Item Image</string>
+    <string name="no_photo">No photo found</string>
+    <string name="price_template">Price: %1$s gp</string>
+    <string name="roll_new_item">Roll new item</string>
+    <string name="info">Info</string>
 </resources>
