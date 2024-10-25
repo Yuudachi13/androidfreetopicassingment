@@ -53,7 +53,7 @@ fun RandomItemScreen(navController: NavController, viewModel: RandomItemViewMode
         }
         Spacer(modifier = Modifier.height(16.dp))
         Button(onClick = { navController.navigate("info") }) {
-            Text("Info")
+            Text("Info about app")
         }
     }
 }
