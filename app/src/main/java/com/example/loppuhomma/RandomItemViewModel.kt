@@ -46,7 +46,7 @@ class RandomItemViewModel : ViewModel() {
                         satakaheksankymmentDayPrice.value = item.item.day180.change
                         kolmekymmentDaytrend.value = item.item.day30.trend
                         yheksankymmentDaytrend.value = item.item.day90.trend
-                        satakaheksankymmentDaytrend.value = item.item.day180.trend
+                        satakaheksankymmentDaytrend.value = item.item.day180.trend //nämä on nyt täällä vähän turhaan ku en jaksanu alkaa värkkää lisää
                     }
                 } else {
                     println("Error fetching item: ${response.code()}")

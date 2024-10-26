@@ -26,8 +26,8 @@ fun AppNavHost() {
     val navController = rememberNavController()
     NavHost(navController = navController, startDestination = "randomItem") {
         composable("randomItem") {
-            val viewModel: RandomItemViewModel = viewModel() // Instantiate ViewModel
-            RandomItemScreen(navController, viewModel) // Pass ViewModel to screen
+            val viewModel: RandomItemViewModel = viewModel()
+            RandomItemScreen(navController, viewModel)
         }
         composable("info") { InfoScreen(navController) }
     }
